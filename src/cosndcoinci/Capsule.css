@@ -1,0 +1,19 @@
+.grid-capsules{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5rem;
+    grid-row-gap: 5rem;
+    width: 100%;
+
+}
+
+@media screen and (max-width: 769px) {
+    .grid-capsules{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+.Header{
+    text-align: center;
+    color: indianred;
+}
