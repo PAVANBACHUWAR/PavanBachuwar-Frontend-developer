@@ -1,0 +1,114 @@
+body{
+    margin-top:20px;
+}
+
+.card {
+    border: 0;
+    box-shadow: 0px 0px 10px 10px white;
+}
+.card {
+    background-color:lightseagreen;
+    background-image: linear-gradient(-30deg,grey, transparent 50%);
+    display: flex;
+    word-wrap: break-word;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+.card .card-header.no-border {
+    border: 0;
+}
+.card .card-header {
+    padding: 0 0.9375rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+}
+.card-header:first-child {
+    border-radius: calc(8px - 1px) calc(8px - 1px) 0 0;
+}
+
+.content .content-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 769px) {
+    .content .content-wrapper {
+        display: block;
+        align-items: center;
+    }
+}
+
+.content .content-wrapper .content-date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 4rem;
+  height: 4rem;
+
+}
+
+.content .content-wrapper .content-date .content-date-day {
+  color: #0076bd;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.content .content-wrapper .content-date .content-date-month {
+  color: #0076bd;
+  line-height: 1;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.content-date-year {
+    color: #0076bd;
+    line-height: 1;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+
+
+.content .content-wrapper .info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.content .content-wrapper .info .info-subtitle {
+  color: white;
+  font-size: 1.1em;
+}
+
+.content .content-wrapper .info .info-details {
+  color: #B1BAC5;
+  font-size: 0.8em;
+}
+
+.content .description {
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 1rem;
+}
+
+.content .description .description-item {
+  display: flex;
+  color: #727686;
+}
+
+.content .description .description-item span {
+  margin-left: .5rem;
+  font-weight: bold;
+}
+
+.content .status {
+  text-align: right;
+}
+
+.content .status a {
+  text-transform: uppercase;
+}

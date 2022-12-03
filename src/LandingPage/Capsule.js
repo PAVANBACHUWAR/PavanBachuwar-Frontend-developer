@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { fetchCapsules } from "../Service";
 import CapsulesCard from "./Capsulecard";
-import "../cosndcoinci/Capsule.css";
+import "./Capsule.css";
 
 
 
